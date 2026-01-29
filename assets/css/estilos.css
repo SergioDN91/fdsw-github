@@ -2,14 +2,30 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.logo-navbar {
+  max-height: 100px;
+  width: auto;
+}
+
+
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
-  background-repeat: no-repeat;
+  background-image: url(../img/bg-hero.jpg) ;
   background-size: cover;
-  background-position: left;
+  background-position: center;
+  min-height: 100vh;
 }
+
+@media (max-width: 768px) {
+  #Hero-Section {
+    background-image: url(../img/bg-hero.jpg);
+    min-height: 70vh;
+  }
+}
+
+
+ 
 
 /* Mis trabajos */
 
