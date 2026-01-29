@@ -11,7 +11,7 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url(../img/bg-hero.jpg) ;
+  background-image: url(../img/onStageH.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -19,7 +19,7 @@ body {
 
 @media (max-width: 768px) {
   #Hero-Section {
-    background-image: url(../img/bg-hero.jpg);
+    background-image: url(../img/onStageH.jpg);
     min-height: 70vh;
   }
 }
